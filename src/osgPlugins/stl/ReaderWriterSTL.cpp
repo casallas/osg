@@ -86,7 +86,7 @@ private:
 
     CreateStlVisitor( std::string const & fout, const osgDB::ReaderWriter::Options* options = 0): osg::NodeVisitor( osg::NodeVisitor::TRAVERSE_ACTIVE_CHILDREN ), counter(0), m_fout(fout), m_options(options) {
       if (options && (options->getOptionString() == "separateFiles")) {
-    osg::notify(osg::INFO) << "ReaderWriterSTL::writeNode: Files are seperated written" << std::endl;                
+    osg::notify(osg::INFO) << "ReaderWriterSTL::writeNode: Files are separated written" << std::endl;
       } else {
     m_f = new std::ofstream(m_fout.c_str());        
     *m_f << "solid " << counter << std::endl;
