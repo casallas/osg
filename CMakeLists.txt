@@ -300,7 +300,7 @@ IF(WIN32)
 ENDIF(WIN32)
 
 # Common to all platforms:
-FIND_PACKAGE(FreeType)
+FIND_PACKAGE(Freetype)
 FIND_PACKAGE(Inventor)
 FIND_PACKAGE(Jasper)
 FIND_PACKAGE(OpenEXR)
