@@ -28,11 +28,8 @@
 
 #include <ft2build.h>  
 #include FT_FREETYPE_H
-
-#include <freetype/ftoutln.h>
-#include <freetype/ftbbox.h>
-
-
+#include FT_OUTLINE_H
+#include FT_BBOX_H
 
 namespace
 {
